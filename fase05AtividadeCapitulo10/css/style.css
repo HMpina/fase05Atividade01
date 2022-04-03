@@ -1,0 +1,88 @@
+.bg-pal1{
+    background: #A11626;
+}
+
+.separation-line{
+    height: 2px;
+}
+
+.pos-absolute-et{
+    position:absolute;
+    right:18px;
+    top:1px;
+}
+
+.pos-absolute-sb{
+    position:absolute;
+    left:18px;
+    bottom:1px;
+}
+
+.pos-absolute-eb{
+    position:absolute;
+    right:18px;
+    bottom:1px;
+}
+
+.col-sm-4{
+
+    min-width: 200px;
+    min-height: 200px;
+}
+.parent-position{
+    position: absolute;
+}
+
+.img-hotel{
+    width: 200px;
+    height: 180px;
+}
+
+.ctn-vh{
+    height: 100vh;
+}
+
+.row-vh{
+    height: 30vh;
+}
+
+.desc-hot{
+    min-height: 108px;
+}
+
+.btn-paleta1{
+    background: #751422;
+}
+
+.btn-paleta2{
+    background: #A11626;
+}
+
+.bg-paleta5{
+    background-color: #FFF0F0;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    .row {
+    display: inline;
+}
+
+    .col-6{
+        width: 100%;
+    }
+    .mt-2{
+        width: 100% !important;
+    }
+
+    .g-start-1{
+        padding-top: 40px;
+    }
+
+    .col, .ms-4 {
+        margin-left: 5px !important;
+    }
+}
