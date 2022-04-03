@@ -86,3 +86,8 @@
         margin-left: 5px !important;
     }
 }
+
+#map{
+    height: 400px;
+    width: 100%;
+}

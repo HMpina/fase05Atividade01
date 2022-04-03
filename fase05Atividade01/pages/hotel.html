@@ -22,9 +22,6 @@
 
     <title>Gulliver Traveller</title>
 
-    <script src="../js/script.js"></script>
-
-
 </head>
 
 <body class="bg-paleta5">
@@ -184,8 +181,9 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <div id="coordenadas"></div>
-                                        <div id="mapa"></div>
+                                        <!-- <div id="coordenadas"></div> -->
+                                        
+                                        <div id="map"></div>
 
                                     </div>
                                     <div class="modal-footer">
@@ -536,8 +534,12 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <!-- <script src="../js/scriptMapa.js"></script> -->
-
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0MpYGd-Og0D62CKLAYQlAbRCPSitYVXk&callback=initMap"
+        async>
+    </script>
+    
+    <script src="../js/maps.js"></script>
 
     <!-- FIM DA CHAMADA DO JS -->
 </body>
